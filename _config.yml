@@ -6,8 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: DirectTalk
-email: lfilho@directtalk.com.br
+title: Direct Talk
 description: > # this means to ignore newlines until "baseurl:"
   Fique por dentro do que a DirectTalk está usando em seus ambientes e quais as últimas tecnologias que estamos implantando!
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -16,4 +15,6 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
+# Link para arquivos estaticos
+staticfiles: "/assets"
 
