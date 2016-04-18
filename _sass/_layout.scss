@@ -1,12 +1,24 @@
 /**
  * Site header
  */
+body{
+    padding-top: $header-size;
+}
+
 .site-header {
-    border-top: 5px solid $secondary-color;
-    min-height: 56px;
+    border-top: 2px solid $primary-color;
+    min-height: $header-size;
+    width: 100%;
+    top:0;
+    background: $background-color;
+    border-bottom: 1px solid #f0f0f0;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+}
+
+.brand{
+    max-width: 100px;
 }
 
 .site-title {
@@ -90,8 +102,6 @@
         }
     }
 }
-
-
 
 /**
  * Site footer

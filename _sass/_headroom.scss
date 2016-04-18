@@ -1,0 +1,17 @@
+// _headroom.scss
+// Animação para Header
+.headroom {
+    will-change: transform;
+    -webkit-transition: -webkit-transform 200ms ease-out;
+            transition: transform 200ms ease-out;
+}
+.headroom--pinned {
+    -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+            transform: translateY(0%);
+}
+.headroom--unpinned {
+    -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+            transform: translateY(-100%);
+}
